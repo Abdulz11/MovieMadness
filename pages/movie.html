@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../movie.css" />
+    <title>MovieMadness</title>
+  </head>
+  <div class="container">
+    <nav style="border-bottom: 5px solid black">
+      <span id="openbtn" onclick="openNav()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </span>
+      <div class="navbar">
+        <div id="logo">
+          <img
+            style="height: 90px; width: 100px"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMQTTEyHWzTzE5sAhYcAMvGMJEig68Bt-y0u-jzHjz&s"
+            alt=""
+          />
+          <h1 style="color: purple">MovieMadness</h1>
+        </div>
+        <form action="">
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Search for movie..."
+          />
+          <button id="search-btn">Search</button>
+        </form>
+      </div>
+      <h2>Most Popular</h2>
+    </nav>
+    <div id="side-bar">
+      <ul>
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">X</a>
+        <li><a id="popular">Most Popular</a></li>
+        <li><a id="new">New Release</a></li>
+        <li><a id="rated">Highest Rated</a></li>
+      </ul>
+    </div>
+    <section>
+      <div class="movie-container" id="movie-container">
+        <div class="movie">
+          <img src="../images/IMG_20180103_211835.JPG" alt="" />
+          <h3 class="title">Movie Title</h3>
+        </div>
+        <div class="movie">
+          <img src="/images/IMG_20180103_211835.JPG" alt="" />
+          <h3 class="title">Movie Title</h3>
+        </div>
+        <div class="movie">
+          <img src="/images/IMG_20180103_211835.JPG" alt="" />
+          <h3 class="title">Movie Title</h3>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <body>
+    <script src="../movie.js"></script>
+  </body>
+</html>
+
+<!-- readME.md for tetris -->
+<!-- -Save highest score -->
+<!--glitch when moving down fast ->
