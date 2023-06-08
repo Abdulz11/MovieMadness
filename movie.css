@@ -132,7 +132,7 @@ nav h2 {
   position: absolute;
   top: 0;
   right: 8px;
-  /* font-size: 50px; */
+ 
 }
 
 /* movie section */
@@ -148,7 +148,7 @@ nav h2 {
   padding: 1.2rem;
   max-height: calc(100vh - 15rem);
   overflow-y: scroll;
-  /* margin-bottom: 50px; */
+  
 }
 
 .movie-container > div {
@@ -250,15 +250,11 @@ nav h2 {
   margin: 0 auto;
   padding: 2rem;
 }
-/* .movie-info-cont {
-  min-height: 100vh;
-  position: relative;
-} */
+
 
 .outer {
   margin: 30px;
-  /* position: relative;
-  min-height: 100vh; */
+  
 }
 .info-desc > * {
   margin-left: 70px;
