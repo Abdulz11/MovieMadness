@@ -50,7 +50,7 @@ function showMovieInfo(movieInfo, header) {
             <h3>${overview}</h3>
         </div>
         <div class='info-btn'>
-            <a class="btn" id='backbtn' href='movie.html'>Go back</button>
+            <a class="btn" id='backbtn' href='index.html'>Go back</button>
             <a class="btn" target=_blank href="https://www.imdb.com/title/${imdb_id}">IMDB</a>
         </div>
 </div>
