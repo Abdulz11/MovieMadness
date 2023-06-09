@@ -6,7 +6,6 @@ const IMG_URL = "https://image.tmdb.org/t/p/w500";
 //EACH MOVIE
 let outerContainer = document.querySelector(".outer");
 let eachMovieContainer = document.getElementById("eachMovie-container");
-console.log(eachMovieContainer);
 function getMovie() {
   let movieId = sessionStorage.getItem("movieId");
   console.log(movieId);
@@ -19,8 +18,6 @@ function getMovie() {
 }
 
 function showMovieInfo(movieInfo, header) {
-  console.log(movieInfo);
-
   let {
     imdb_id,
     overview,
@@ -36,7 +33,6 @@ function showMovieInfo(movieInfo, header) {
   eachMovieContainer.innerHTML = "";
   let eachMovie = document.createElement("div");
   eachMovie.setAttribute("id", "outer");
-  console.log(eachMovie);
   eachMovie.innerHTML = `<div id='movie'>
         <div class='movie-info'>
         <div class="movieposter">
@@ -64,9 +60,7 @@ function showMovieInfo(movieInfo, header) {
   eachMovieContainer.append(eachMovie);
   let span = document.querySelector("span");
   let newHeader = header.trim().replace(" ", "");
-  console.log(newHeader);
   if (newHeader !== "NewRelease") {
-    console.log("i work");
     span.style.display = "none";
   }
 }
